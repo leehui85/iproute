@@ -362,7 +362,7 @@ func (v *Veth) PeerMTU() int {
 	return v.Peer.Attrs().MTU
 }
 
-// NtxQs returns theh number of transmit queues of this veth interface
+// NtxQs returns the number of transmit queues of this veth interface
 func (v *Veth) NtxQs() int {
 	return v.Link.Attrs().NumTxQueues
 }
@@ -376,7 +376,7 @@ func (v *Veth) PeerNtxQs() int {
 	return v.Peer.Attrs().NumTxQueues
 }
 
-// NrxQs returns theh number of receive queues of this veth interface
+// NrxQs returns the number of receive queues of this veth interface
 func (v *Veth) NrxQs() int {
 	if v.Peer == nil {
 		return -1

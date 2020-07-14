@@ -1,0 +1,11 @@
+github.com/hariguchi/go_netns v0.0.0-20190713164412-259638f1d425 h1:42SC2DZ9uzktGYFX5e7crZY/2/xv87kz7betqnjKdW0=
+github.com/hariguchi/go_netns v0.0.0-20190713164412-259638f1d425/go.mod h1:b+jy1yvNQ5RL6iChIjgpWYLFH9H6moMx5o58zSypePg=
+github.com/hariguchi/iproute v0.0.0-20190809151600-fb6d5452eeaa h1:PFz6MiOMON2KHvm3DrJmvs4OddWAwGT+Z/Og9+w0qrk=
+github.com/hariguchi/iproute v0.0.0-20190809151600-fb6d5452eeaa/go.mod h1:cQFdNXGWPYtqQsCf6rAijlsrr9DfHZdN0ohifofys3A=
+github.com/vishvananda/netlink v1.1.0 h1:1iyaYNBLmP6L0220aDnYQpo1QEV4t4hJ+xEEhhJH8j0=
+github.com/vishvananda/netlink v1.1.0/go.mod h1:cTgwzPIzzgDAYoQrMm0EdrjRUBkTqKYppBueQtXaqoE=
+github.com/vishvananda/netns v0.0.0-20191106174202-0a2b9b5464df h1:OviZH7qLw/7ZovXvuNyL3XQl8UFofeikI1NW1Gypu7k=
+github.com/vishvananda/netns v0.0.0-20191106174202-0a2b9b5464df/go.mod h1:JP3t17pCcGlemwknint6hfoeCVQrEMVwxRLRjXpq+BU=
+golang.org/x/sys v0.0.0-20190606203320-7fc4e5ec1444/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+golang.org/x/sys v0.0.0-20200625212154-ddb9806d33ae h1:Ih9Yo4hSPImZOpfGuA4bR/ORKTAbhZo2AbWNRCnevdo=
+golang.org/x/sys v0.0.0-20200625212154-ddb9806d33ae/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
