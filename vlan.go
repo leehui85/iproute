@@ -36,11 +36,11 @@ func VlanAdd(ifName string, vlanId uint16) (*Vlan, error) {
 	if l, err := netlink.LinkByName(ifName); err == nil {
 		ifName := fmt.Sprintf("%s.%d", ifName, vlanId)
 		if err := netlink.LinkAdd(&netlink.Vlan{
-			netlink.LinkAttrs{
+			LinkAttrs: netlink.LinkAttrs{
 				Name:        ifName,
 				ParentIndex: l.Attrs().Index,
 			},
-			int(vlanId)}); err != nil {
+			VlanId: int(vlanId)}); err != nil {
 			return nil, fmt.Errorf("LinkAdd(%s): %v", ifName, err)
 		}
 		if l, err := netlink.LinkByName(ifName); err == nil {
